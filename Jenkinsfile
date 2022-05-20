@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "emirhanaydin61/nodeapp"
+    dockerimagename = "thetips4you/nodeapp"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/emirhanaydindevops/nodeap.git'
+        git 'https://github.com/shazforiot/nodeapp_test.git'
       }
     }
 
@@ -47,3 +47,7 @@ pipeline {
   }
 
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security

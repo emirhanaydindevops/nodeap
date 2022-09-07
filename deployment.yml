@@ -16,6 +16,34 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: emirhanaydin61/nodeapp:latest
+        image: emirhan.azurecr.io
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /nodeapp:latest
         ports:
         - containerPort: 3000
